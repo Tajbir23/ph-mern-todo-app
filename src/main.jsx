@@ -17,7 +17,7 @@ export const routes = createBrowserRouter([
   {
     path: '/users',
     element: <Users />,
-    loader: (() => fetch('http://localhost:5000/users'))
+    loader: (() => fetch('https://ph-mern-todo-app.onrender.com/users'))
   }
 ]);
 

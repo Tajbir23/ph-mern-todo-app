@@ -2,7 +2,7 @@
 
 const useUpdate = (user, id) => {
 
-    fetch(`http://localhost:5000/users/update/${id}`, {
+    fetch(`https://ph-mern-todo-app.onrender.com/users/update/${id}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'

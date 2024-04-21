@@ -1,7 +1,7 @@
 
 const useDelete = (id) => {
     console.log(id)
-    fetch(`http://localhost:5000/users/delete/${id}`,{
+    fetch(`https://ph-mern-todo-app.onrender.com/users/delete/${id}`,{
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json'

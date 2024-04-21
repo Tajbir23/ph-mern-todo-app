@@ -10,7 +10,7 @@ function App() {
       phone: e.target.phone.value
     }
 
-    fetch('http://localhost:5000/save', {
+    fetch('https://ph-mern-todo-app.onrender.com/save', {
       method: "POST",
       headers: {
         'content-type' : 'application/json'
